@@ -1,0 +1,120 @@
+@charset "utf-8";
+body{
+	background: #f3f3f3;
+	font-size: 0.9em;
+}
+.adrD{
+    padding: 1em;
+}
+.adrD .dis{
+    color: #999;
+    margin-bottom: 1em;
+}
+.adrD .list{}
+.adrD .list li{
+    background: #FFF;
+    border-radius: 5px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.adrD .list li.act{
+    background: url('../images/dressbg.png') repeat-x bottom left,#FFF;
+    background-size: auto 2px;
+}
+.adrD .list .d1{}
+.adrD .list .act .s1:after{
+    content: '默认 ';
+    background: #fed71f;
+    text-align: center;
+    padding: 0 1em;
+    border-radius: 1em;
+    margin-left: .5em;
+}
+.adrD .list .name{}
+.adrD .list .tel{}
+.adrD .list .s2{
+    font-size: .9em;
+    margin-top: .5em;
+}
+.adrD .list .a1{
+    border-left: 1px solid #f6f6f6;
+    margin-left: 1em;
+    width: 1em;
+    height: 3em;
+    background: url('../images/edit.png') no-repeat right center;
+    background-size: auto 1.5em;
+    padding-left: 1.6em;
+}
+.addNew{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 750px;
+    padding: 1em;
+    text-align: center;
+    box-sizing: border-box;
+}
+.addNew a{
+    background: #fed71f;
+    display: block;
+    line-height: 4;
+}
+
+/* 编辑地址 */
+.editD{
+    padding: 1em;
+}
+.editD ul{
+    background: #FFF;
+    border-radius: 5px;
+}
+.editD li{
+    padding: 1em;
+}
+.editD li + li{
+	border-top: 1px solid #f6f6f6;
+}
+.editD li .inp,.editD li .sel{
+	border: none;
+	display: block;
+	width: 100%;
+	font-size: 1em;
+	line-height: 1.5;
+	background: none;
+	padding: 0;
+}
+.editD li .inp::-webkit-input-placeholder{
+	color: #333;
+}
+.editD li.selD{
+	position: relative;
+}
+.editD li.selD:after{
+	content: "";
+	display: block;
+	width: 0.5em;
+	height: 0.5em;
+	position: absolute;
+	right: 1em;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	top: 50%;
+	transform: rotate(45deg);
+	transform-origin: 100% 0;
+}
+.editD li .sel{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
+.editD .btnD{
+    margin-top: 1em;
+}
+.editD .btnD a{
+    display: block;
+    line-height: 3;
+    text-align: center;
+    background: #fed71f;
+}

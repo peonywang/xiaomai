@@ -1,0 +1,158 @@
+@charset "UTF-8";
+body{
+	background: #f3f3f3;
+	font-size: 0.9em;
+}
+.billD{
+	padding: 1em 1em 4em;
+}
+.billD h1 {
+    font-size: 1em;
+    margin-bottom: .5em;
+    font-weight: 500;
+}
+.billD h2 {
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.billD > li{
+	background: #FFF;
+	margin-bottom: 1em;
+	border-radius: 5px;
+}
+
+.billD > li.dress {
+    padding: 1em;
+    background: url('../images/dressbg.png') repeat-x bottom left,#FFF;
+    background-size: auto 2px;
+}
+
+
+.dress .p1 {
+    line-height: 1.5;
+    font-size: .9em;
+    color: #666;
+}
+
+.billD .shoplist h2 {
+	padding: 1em 1em .5em;
+	border-bottom: 1px solid #fdfdfd;
+}
+.billD .shoplist li{
+	background: #FFF;
+	margin-bottom: 0;
+	padding-top: 0;
+}
+.shoplist .d3 .numD .chose{
+	border: 1px solid #f6f6f6;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.shoplist .d3 .numD span.cz,.shoplist .d3 .numD input[type="tel"]{
+	background: #FFF;
+}
+.shoplist .d3 .numD input[type="tel"]{
+	margin: 0;
+	border-left: 1px solid #f6f6f6;
+	border-right: 1px solid #f6f6f6;
+}
+/* 共计 */
+.account{
+	
+}
+.account li{display: flex;padding: 1em;align-items: baseline;}
+.account li + li{border-top: 1px solid #f6f6f6;}
+.account .ob1,.account .ob2{
+	justify-content: space-between;
+}
+.account .ob1 .red{
+	position: relative;
+	padding-right: 0.8em;
+}
+.account .ob1 .red:after{
+	content: "";
+	display: block;
+	width: 0.5em;
+	height: 0.5em;
+	position: absolute;
+	right: 0;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	top: 50%;
+	transform: rotate(45deg);
+	transform-origin: 100% 0;
+}
+.account .ob3 input{
+	border: none;
+	padding: 0 .5em;
+	font-size: 1em;
+}
+.account .total{
+	justify-content: flex-end;
+}
+
+/* 支付方式 */
+.payment{
+	padding: 1em;
+}
+.payment .d1{
+	display: flex;
+	align-items: center;
+}
+.payment .d1 .i1{
+	width: 2.5em;
+	margin-right: 1em;
+}
+.payment .d1 .s1{
+	flex: 1;
+}
+.payment .d1 .s1 .p1{
+	margin-bottom: 0.2em;
+}
+.payment .d1 .s1 p.gray2{
+	font-size: .9em;
+}
+/* 底部功能条 */
+.botT{
+    align-items: center;
+}
+.botT .d1{
+	flex: 0;
+	padding-bottom: 1em;
+}
+.botT .d1 img{
+	height: 1em;
+}
+.botT .d2{
+	flex: 1;
+	text-align: left;
+	padding: 0 0 0 0.6em;
+}
+.botT .d2 .rmb{
+	font-weight: normal;
+}
+.botT .d2 .red.s2{
+	font-size: .9em;
+}
+.botT .d2 .red.s1{
+	font-size: 1em;
+}
+.botT .d2 .red:before{
+	content: "";
+}
+.rmb:before{
+	content: "¥";
+}
+.minus:before{
+	content: "- ";
+}
+.equal:before{
+	content: "= ¥"
+}
+.botT .a3{
+	flex: unset;
+}
+.botT .p2.gray{
+	font-size: .8em;
+}
