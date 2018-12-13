@@ -16,6 +16,7 @@
   <meta name="author" content="Peony Wang,fhjl1989@163.com">
   <!-- 移动设备添加 viewport -->
   <meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <script src="js/jquery-1.11.3.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <title>翻牌抽奖</title>
@@ -23,8 +24,18 @@
 <body>
   <div class="w750">
     <div class="banner">
-      <img src="" alt="">
+      <img src="images/banner.jpg" alt="幸运大转盘" class="i1">
+      <div class="guize">
+        <span class="s1">抽中选中的奖品即可获得该图片所显示礼品</span>
+        <p>活动规则</p>
+      </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </div>
 </body>
 </html>
