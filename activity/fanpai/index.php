@@ -26,8 +26,80 @@
     <div class="banner">
       <img src="images/banner.jpg" alt="幸运大转盘" class="i1">
       <div class="guize">
-        <span class="s1">抽中选中的奖品即可获得该图片所显示礼品</span>
-        <p>活动规则</p>
+        <span class="s1"><img src="images/guize.png" alt="抽中选中的奖品即可获得该图片所显示礼品"></span>
+        <p>我的奖品</p>
+      </div>
+    </div>
+    <div class="game">
+      <div class="game_tit clearfix">
+        <img src="imagesbak/puke.png" alt="" class="puke">
+        <span>今日还剩<b>5</b>机会</span>
+      </div>
+      <div class="hezi">
+        <img src="imagesbak/deng.png" alt="" class="zmd">
+        <img src="imagesbak/deng2.png" alt="" class="zmd2">
+<!--        <script>-->
+<!--          var c = 250;-->
+<!--          function timedCount()-->
+<!--          {-->
+<!--            $(".zmd").show();-->
+<!--            $(".zmd2").hide();-->
+<!--            setTimeout(function(){-->
+<!--              $(".zmd2").show();-->
+<!--              $(".zmd").hide();-->
+<!--            },c);-->
+<!--            t=setTimeout("timedCount()",2*c);-->
+<!--          }-->
+<!--          $(function(){-->
+<!--            timedCount();-->
+<!--            $('.begin').click(function() {-->
+<!--              c = 150;-->
+<!--            });-->
+<!--          })-->
+<!--        </script>-->
+        <ul class="clearfix" id="youxiqu">
+          <li class="mg0">
+            <img src="imagesbak/iphone7.png" alt="">
+          </li>
+          <li>
+            <img src="imagesbak/you.png" alt="">
+          </li>
+          <li>
+            <img src="imagesbak/huafei.png" alt="">
+          </li>
+          <li class="mg0">
+            <img src="imagesbak/jiaxiquan1.png" alt="">
+          </li>
+          <li class="kaishi">
+<!--            --><?php
+//            if($status_an==1){
+//              ?>
+<!--              <a href=""><img src="imagesbak/lijicanyu.png" alt=""></a>-->
+<!--              --><?php
+//            }else if($status_an==2){
+//              ?>
+<!--              <img src="imagesbak/kaishi.png" alt="" id="begin">-->
+<!--              --><?php
+//            }else if($status_an==3){
+//              ?>
+<!--              <img src="imagesbak/bukedian.png" alt="">-->
+<!--              --><?php
+//            }
+//            ?>
+          </li>
+          <li>
+            <img src="imagesbak/jiaxiquan2.png" alt="">
+          </li>
+          <li class="mg0">
+            <img src="imagesbak/dami.png" alt="">
+          </li>
+          <li>
+            <img src="imagesbak/zhaopian.png" alt="">
+          </li>
+          <li>
+            <img src="imagesbak/jiaxiquan0.5.png" alt="">
+          </li>
+        </ul>
       </div>
     </div>
     <br>
