@@ -2,9 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="514c77d8-f24e-4de1-8f1a-204a7164a67d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activity/fanpai/css/style.css" afterPath="$PROJECT_DIR$/activity/fanpai/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activity/fanpai/index.php" afterPath="$PROJECT_DIR$/activity/fanpai/index.php" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity/fanpai/images/199hongbao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity/fanpai/images/20yhq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity/fanpai/images/30yhq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity/fanpai/images/8xjq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity/fanpai/images/canjinzhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity/fanpai/images/huawei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity/fanpai/images/iPhoneX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity/fanpai/images/weixuanzhong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity/fanpai/images/xiexie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity/fanpai/images/xiyiye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/css/shuang.css" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/css/shuang.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/Tbj.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/Tbj.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/anxia.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/anxia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/begin.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/begin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/bukedian.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/bukedian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/dami.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/dami.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/deng.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/deng.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/deng2.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/deng2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/fu.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/fu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/hdian.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/hdian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/hdian1.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/hdian1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/hezi.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/hezi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/huafei.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/huafei.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/iphone7.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/iphone7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/jiaxiquan0.5.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/jiaxiquan0.5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/jiaxiquan1.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/jiaxiquan1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/jiaxiquan2.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/jiaxiquan2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/ju.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/ju.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/ju1.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/ju1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/kaishi.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/kaishi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/puke.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/puke.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/tanTitBg.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/tanTitBg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/tuo.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/tuo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/wzhong.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/wzhong.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/you.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/you.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/zhaopian.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/zhaopian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/imagesbak/zhu.png" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/images/zhu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/shuang.php" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/shuang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/shuang_tan_wgh.php" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/shuang_tan_wgh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity/fanpai/shuangshiyi_pyc.php" beforeDir="false" afterPath="$PROJECT_DIR$/activity/fanpai/shuangshiyi_pyc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <ignored path="xiaomai.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,20 +63,22 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="xiaomai" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.611682">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/activity/fanpai/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="356">
-                  <caret line="87" column="16" selection-start-line="73" selection-start-column="19" selection-end-line="87" selection-end-column="16" />
-                  <folding />
+                <state relative-caret-position="163">
+                  <caret line="187" column="76" selection-start-line="187" selection-start-column="76" selection-end-line="187" selection-end-column="76" />
+                  <folding>
+                    <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -40,36 +86,17 @@
           <file leaf-file-name="comhead.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/comhead.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="384">
+                <state relative-caret-position="432">
                   <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-                  <folding />
                 </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/images/favicon.ico">
-              <provider selected="true" editor-type-id="images">
-                <state />
               </provider>
             </entry>
           </file>
           <file leaf-file-name="com.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/com.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="528">
-                  <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="com.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/com.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="2268">
+                  <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -81,9 +108,20 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/activity/fanpai/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
-                  <folding />
+                <state relative-caret-position="354">
+                  <caret line="225" column="113" selection-start-line="225" selection-start-column="113" selection-end-line="225" selection-end-column="113" />
+                  <folding>
+                    <element signature="e#7142#7203#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="zhong.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/activity/fanpai/zhong.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4320">
+                  <caret line="160" column="19" selection-start-line="160" selection-start-column="15" selection-end-line="160" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -91,14 +129,26 @@
           <file leaf-file-name="shuangshiyi_pyc.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/activity/fanpai/shuangshiyi_pyc.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="319">
-                  <caret line="161" column="24" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#6033#6123#0#PHP" expanded="false" />
-                    <element signature="e#6140#6230#0#PHP" expanded="false" />
-                    <element signature="e#6190#6230#0#PHP" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
+                <state relative-caret-position="633">
+                  <caret line="561" column="23" selection-start-line="561" selection-start-column="23" selection-end-line="561" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="shuangshiyi.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/activity/fanpai/shuangshiyi.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="7938">
+                  <caret line="297" column="39" selection-start-line="297" selection-start-column="29" selection-end-line="297" selection-end-column="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="shuang_tan_wgh.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/activity/fanpai/shuang_tan_wgh.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3942">
+                  <caret line="146" column="14" selection-start-line="108" selection-start-column="8" selection-end-line="146" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -106,9 +156,8 @@
           <file leaf-file-name="shuang.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/activity/fanpai/css/shuang.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="504">
-                  <caret line="76" column="1" selection-start-line="33" selection-start-column="22" selection-end-line="76" selection-end-column="1" />
-                  <folding />
+                <state relative-caret-position="486">
+                  <caret line="18" selection-start-line="18" selection-end-line="19" />
                 </state>
               </provider>
             </entry>
@@ -124,12 +173,48 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>客服</find>
+      <find>今日还剩</find>
+      <find>tan</find>
+      <find>direct</find>
+      <find>btn</find>
+      <find>.game</find>
+      <find>gun</find>
+      <find>gun&quot;</find>
+      <find>.main</find>
+      <find>h3</find>
+      <find>imagesbak</find>
+      <find>中奖记录</find>
+      <find>.game span</find>
+      <find>noWinningTan</find>
+      <find>winningTan</find>
+      <find>恭喜</find>
+      <find>&quot;tan</find>
+      <find>charsTxt</find>
+      <find>hone</find>
+      <find>jiangNo</find>
+      <find>src =&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>../imagesbak/</replace>
+      <replace>../images</replace>
+      <replace>images</replace>
+      <replace>['name'</replace>
+      <replace>'src' =&gt;</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/../../apache/conf/extra/httpd-xampp.conf" />
+        <option value="$PROJECT_DIR$/activity/fanpai/css/shuang.css" />
+        <option value="$PROJECT_DIR$/activity/fanpai/shuangshiyi_pyc.php" />
         <option value="$PROJECT_DIR$/activity/fanpai/css/style.css" />
         <option value="$PROJECT_DIR$/activity/fanpai/index.php" />
       </list>
@@ -144,63 +229,87 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="width" value="1909" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
+    <navigator proportions="" version="1">
       <autoscrollToSource ProjectPane="false" />
       <autoscrollFromSource ProjectPane="true" />
-      <sortByType />
-      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xiaomai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomai" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="xiaomai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="activity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="xiaomai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="activity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fanpai" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="xiaomai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="activity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fanpai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="xiaomai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="activity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fanpai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/activity/fanpai/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/activity/fanpai/images" />
       <recent name="$PROJECT_DIR$/activity/fanpai/js" />
       <recent name="$PROJECT_DIR$/activity/fanpai" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\xiaomai\activity\fanpai\images" />
+      <recent name="$PROJECT_DIR$/activity/fanpai/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -218,15 +327,6 @@
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -249,9 +349,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -268,35 +373,41 @@
       <workItem from="1544664739797" duration="3360000" />
       <workItem from="1544752466475" duration="125000" />
       <workItem from="1544767575153" duration="3155000" />
+      <workItem from="1544942692663" duration="14478000" />
+      <workItem from="1545045563291" duration="6759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10568000" />
+    <option name="totallyTimeSpent" value="31805000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1909" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="NativeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25376344" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32929516" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="NativeScript" order="7" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -309,81 +420,207 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/activity/fanpai/js/jquery-1.11.3.min.js">
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="8937">
+          <caret line="331" column="42" selection-start-line="331" selection-start-column="42" selection-end-line="331" selection-end-column="42" />
+          <folding>
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comhead.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="432">
           <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/com.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activity/fanpai/shuangshiyi_pyc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="161" column="24" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="24" />
-          <folding>
-            <element signature="e#6033#6123#0#PHP" expanded="false" />
-            <element signature="e#6140#6230#0#PHP" expanded="false" />
-            <element signature="e#6190#6230#0#PHP" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activity/fanpai/css/shuang.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="76" column="1" selection-start-line="33" selection-start-column="22" selection-end-line="76" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="2268">
+          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/activity/fanpai/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="3888">
+          <caret line="144" column="2" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
+          <folding>
+            <element signature="e#7142#7203#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/zhong.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="160" column="19" selection-start-line="160" selection-start-column="15" selection-end-line="160" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/shuangshiyi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7938">
+          <caret line="297" column="39" selection-start-line="297" selection-start-column="29" selection-end-line="297" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/shuang_tan_wgh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3942">
+          <caret line="146" column="14" lean-forward="true" selection-start-line="108" selection-start-column="8" selection-end-line="146" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/css/shuang.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/shuangshiyi_pyc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15066">
+          <caret line="561" column="23" selection-start-line="561" selection-start-column="23" selection-end-line="561" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/activity/fanpai/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="2349">
           <caret line="87" column="16" selection-start-line="73" selection-start-column="19" selection-end-line="87" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comhead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2619">
+          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+          <folding>
+            <element signature="e#7142#7203#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/shuangshiyi_pyc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4347">
+          <caret line="161" column="24" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/css/shuang.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="76" column="1" selection-start-line="33" selection-start-column="22" selection-end-line="76" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../apache/conf/extra/httpd-xampp.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comhead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/shuang_tan_wgh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3942">
+          <caret line="146" column="14" selection-start-line="108" selection-start-column="8" selection-end-line="146" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/css/shuang.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/shuangshiyi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7938">
+          <caret line="297" column="39" selection-start-line="297" selection-start-column="29" selection-end-line="297" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/zhong.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="160" column="19" selection-start-line="160" selection-start-column="15" selection-end-line="160" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/shuangshiyi_pyc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="561" column="23" selection-start-line="561" selection-start-column="23" selection-end-line="561" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="225" column="113" selection-start-line="225" selection-start-column="113" selection-end-line="225" selection-end-column="113" />
+          <folding>
+            <element signature="e#7142#7203#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/fanpai/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="187" column="76" selection-start-line="187" selection-start-column="76" selection-end-line="187" selection-end-column="76" />
+          <folding>
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -8,8 +8,12 @@
  <!doctype html>
 <html>
 <head>
-	<?php include $_SERVER['DOCUMENT_ROOT']."/wechat/src/head.html" ?>
+	<?php // include $_SERVER['DOCUMENT_ROOT']."/wechat/src/head.html" ?>
 	<title>双十一活动</title>
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="js/jquery-1.11.3.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/shuang.css">
 	<style>
 		body{max-width: 750px;margin: 0 auto}
@@ -63,7 +67,7 @@
 			color: #FFF;
 			font-style: ;18px;
 			font-weight: normal;
-			background: url(imagesbak/tanTitBg.png) no-repeat center top /auto 100%;
+			background: url(images/tanTitBg.png) no-repeat center top /auto 100%;
 			position: relative;
 			top:25px;
 			z-index: 5;
@@ -71,7 +75,7 @@
 		.shuangTan{
 			/* background:   center 50% /  */
 			background-color: rgba(0, 0, 0, 0.5);
-			background-image: url(imagesbak/Tbj.png);
+			background-image: url(images/Tbj.png);
 			background-repeat: no-repeat;
 			box-sizing: border-box;
 		}
@@ -552,7 +556,6 @@
 			            }
 			    	});
 				});
-
 			});
 			$(".close").click(function(){
 				$("#youxiqu").html('<li class="mg0"> <img src="imagesbak/iphone7.jpg" alt="iPhone7"> </li> <li> <img src="imagesbak/you.jpg" alt="鲁花花生油４Ｌ"> </li> <li> <img src="imagesbak/10yuan.jpg" alt="10元话费"> </li> <li class="mg0"> <img src="imagesbak/jiaxi1.jpg" alt="1%加息券"> </li> <li> <img src="imagesbak/begin.png" alt="" id="begin"> </li> <li> <img src="imagesbak/jiaxi2.jpg" alt="2%加息券"> </li> <li class="mg0"> <img src="imagesbak/dami.jpg" alt="福临门东北大米５ｋｇ"> </li> <li> <img src="imagesbak/photo.jpg" alt="6寸照片"> </li> <li> <img src="imagesbak/jiaxi0.5.jpg" alt="0.5％加息券"> </li>');

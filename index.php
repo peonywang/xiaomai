@@ -71,7 +71,7 @@
 		</div>
 		<!-- 底部功能条 -->
 		<div class="botT">
-			<a href="" class="a1">
+			<a href="activity/fanpai" class="a1">
 				<img src="images/kefu.png" alt="客服">
 				<span>客服</span>
 			</a>
