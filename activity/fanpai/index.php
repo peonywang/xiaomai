@@ -117,7 +117,7 @@
             </div>
         </div>
     </div>
-    <p class="btn"><img src="images/btn.png" alt="" width="35" height="35" class="close"></p>
+    <p class="btn"><img src="images/btn.png" alt="关闭" class="close" width="35" height="35"></p>
 </div>
 <!-- 中奖记录 -->
 <div class="tan shuangTan shuangTan2" id="prize" style="display:none;">
@@ -156,7 +156,22 @@
             </div>
         </div>
     </div>
-    <p class="btn"><img src="images/btn.png" alt="" width="35" height="35"></p>
+    <p class="btn"><img src="images/btn.png" alt="关闭" class="close" width="35" height="35"></p>
+</div>
+<!-- 中奖弹窗-->
+<div class="tan shuangTan winningTan" id="winningTan">
+    <h2>哇塞！恭喜您</h2>
+    <div class="nrk" style="width:76%;margin:0 12%">
+        <div class="nr">
+            <div class="nrText t_cent">
+                <img class="tit" src="images/zjtit.png" alt="恭喜您中奖了">
+                <p class="p1">抽中奖品：<span class="red" id="mywintext"></span></p>
+                <p class="p2">分享活动可获得一次抽奖机会</p>
+                <div class="btnD"><a href="">去兑换</a><a href="">去分享</a></div>
+            </div>
+        </div>
+    </div>
+    <p class="btn"><img src="images/btn.png" alt="关闭" class="close" width="35" height="35"></p>
 </div>
 <script>
     //游戏规则
@@ -168,7 +183,7 @@
     //设置几率及相应图片文字
     var charsNum = [0,0,0,10,14,2,2,2,70];
     //奖品数量
-    var jiangpin = charsNum.length;
+    var jiangpin = charsNum.length - 1;
     var jiangpinIndex = jiangpin - 1;//对应索引
     var charsSum = 0;
     for(var i = 0; i < jiangpin; i++){charsSum += charsNum[i];}
@@ -217,14 +232,10 @@
             $(this).attr("src","images/anxia.png");
             $(".zmd,.zmd2").css("animation-duration","0.5s");
             var beginHtml = '';
-            var youxiLiHtml = '<li class="on"> <div class="d1"> <img src="imagesbak/weixuanzhong.jpg"> </div> <div class="d2"> <img src=""> </div> </li>';
-            var youxiLiHtml2 = '<li class="on mg0"> <div class="d1"> <img src="imagesbak/weixuanzhong.jpg"> </div> <div class="d2"> <img src=""> </div> </li>';
+            var youxiLiHtml = '<li class="on"> <div class="d1"> <img src="images/weixuanzhong.jpg"> </div> <div class="d2"> <img src=""> </div> </li>';
+            // var youxiLiHtml2 = '<li class="on mg0"> <div class="d1"> <img src="images/weixuanzhong.jpg"> </div> <div class="d2"> <img src=""> </div> </li>';
             for(i = 0; i < 9; i++){
-                if(i == 0 || i == 3 || i == 6){
-                    beginHtml = beginHtml + youxiLiHtml2;
-                }else{
-                    beginHtml = beginHtml + youxiLiHtml;
-                }
+                beginHtml = beginHtml + youxiLiHtml;
             }
             $("#youxiqu").delay(100).fadeOut(function(){
                 $(this).html(beginHtml);
@@ -281,6 +292,7 @@
                         bgImg.parents(".d1").css("height",0).siblings(".d2").css("height","auto");
                         // 记录已翻开的数据
                         jiluNo(_thisjiangNo);
+                        console.log(_thisjiangNo,imgUrl[_thisjiangNo])
                         jiangpinImg.attr("src",imgUrl[_thisjiangNo]).show().animate({width:"100%"},100,"swing",function(){
                             panduan();
                             fanpaiLi.addClass('on');
