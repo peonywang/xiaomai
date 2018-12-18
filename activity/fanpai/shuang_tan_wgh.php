@@ -13,7 +13,7 @@
 			color: #FFF;
 			font-style: ;18px;
 			font-weight: normal;
-			background: url(imagesbak/tanTitBg.png) no-repeat center top /auto 100%;
+			background: url(images/tanTitBg.png) no-repeat center top /auto 100%;
 			position: relative;
 			top:25px;
 			z-index: 5;
@@ -21,7 +21,7 @@
 		.shuangTan{
 			/* background:   center 50% /  */
 			background-color: rgba(0, 0, 0, 0.5);
-			background-image: url(imagesbak/Tbj.png);
+			background-image: url(images/Tbj.png);
 			background-repeat: no-repeat;
 			box-sizing: border-box;
 		}

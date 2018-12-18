@@ -15,7 +15,7 @@
 			color: #FFF;
 			font-style: ;18px;
 			font-weight: normal;
-			background: url(imagesbak/tanTitBg.png) no-repeat center top /auto 100%;
+			background: url(images/tanTitBg.png) no-repeat center top /auto 100%;
 			/*  margin-top:20%; */
 			position: relative;
 			top:25px;

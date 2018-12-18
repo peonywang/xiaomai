@@ -89,8 +89,8 @@ body{max-width:750px;margin:0 auto}
 .more h3{font-size:12px;color:#fff;font-weight:normal;margin:32px auto}
 .fenxiang{position:fixed;bottom:0;display:block;height:40px;width:100%;line-height:40px;color:#fff;font-size:17px;text-align:center;background:-webkit-linear-gradient(#f52c78 0%,#b52a5c 100%);background:-o-linear-gradient(#f52c78 0%,#b52a5c 100%);background:linear-gradient(#f52c78 0%,#b52a5c 100%);max-width:750px;}
 
-.shuangTan h2{height:40px;line-height:38px;text-align:center;color:#FFF;font-style:;18px;font-weight:normal;background:url(../imagesbak/tanTitBg.png) no-repeat center top /auto 100%;position:relative;top:25px;z-index:5;}
-.shuangTan{background-color:rgba(0,0,0,0.75);background-image:url(../imagesbak/Tbj.png);background-repeat:no-repeat;box-sizing:border-box;}
+.shuangTan h2{height:40px;line-height:38px;text-align:center;color:#FFF;font-style:;18px;font-weight:normal;background:url(../images/tanTitBg.png) no-repeat center top /auto 100%;position:relative;top:25px;z-index:5;}
+.shuangTan{background-color:rgba(0,0,0,0.75);background-image:url(../images/Tbj.png);background-repeat:no-repeat;box-sizing:border-box;}
 .shuangTan .nrk{padding:8px;background:-moz-linear-gradient(left top,#b823d3 0%,#700fa7 58%,#9e1cc3 100%);background:-webkit-linear-gradient(left top,#b823d3 0%,#700fa7 58%,#9e1cc3 100%);background:linear-gradient(left top,#b823d3 0%,#700fa7 58%,#9e1cc3 100%);width:80%;margin:0 10%;box-sizing:border-box;border-radius:10px;position:relative;}
 .shuangTan .nr{background:#fff5ed;border-radius:4px;padding:25px 14px;color:#5f00a7;font-size:13px;line-height:22px;}
 .shuangTan .nrText{overflow-y:scroll;width:100%;}
@@ -105,7 +105,7 @@ body{max-width:750px;margin:0 auto}
 .shuangTan .nr .juan1 .left p:nth-of-type(2){color:#888;font-size:12px;margin-top:-3px;text-align:center;}
 .shuangTan .nr .juan1 .left p:nth-of-type(2) a{color:red;}
 .shuangTan .nr .juan1 .right{color:#fff;font-size:16px;padding:30px 0;width:36%;float:left;text-align:center;}
-.tan_fen{width:100%;height:100%;background:rgba(0,0,0,.75);position:fixed;z-index:11;left:0;top:0;display:none}
+.tan_fen{width:100%;height:100%;background:rgba(0,0,0,.75);position:fixed;z-index:11;left:0;top:0;/* display:none; */}
 .tan_fen img{position:absolute;right:10%;top:5%;width:60%}
 .more ul li{position: relative;}
 .more2{animation:3s ease .1s infinite running mymove;}
