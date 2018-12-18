@@ -53,14 +53,18 @@ a{
 .game span{color:#fff;font-size: 16px;position:absolute;right:0;bottom: 50%;line-height:18px;text-decoration: underline;}
 .game .hezi{background: url(../images/hezi.png) no-repeat center top;margin: 0 auto 1em;position:relative;padding: 0 2vw;background-size: 100% 100%;overflow: hidden;height: 102vw;max-height: 765px;}
 .game ul{padding: 12% 5% 10%;overflow: hidden;height: 81vw;max-height: 760px;}
-.game ul li{float:left;width: 33%;height: 27vw;/* margin:0 1.1% 0.4% 0; */position: relative;display: block;overflow: hidden;max-height: 205px;}
+.game ul li{float:left;width: 33%;height: 27vw;/* margin:0 1.1% 0.4% 0; */position: relative;display: block;overflow: hidden;max-height: 205px;box-sizing: border-box;border: 1px solid #6500da;}
+.game ul li.act{
+    border:2px solid #000;
+    box-sizing: border-box;
+}
 .game ul li:nth-child(3n+0){margin-right: 0;}
 .game ul li img{width:100%;box-shadow:0 0 24px rgba(112,8,69,.5);}
 .game ul li > div{width:100%;height:100%;}
 .game ul li .d2{height: 0;}
 .game ul li .d2 img{width:0;display:none;height: 100%;}
 
-.game .kaishi{background:url(../images/begin.png) no-repeat 100% 100% /cover;box-shadow:0 0 24px rgba(112,8,69,.5);}
+.game .kaishi{/* background:url(../images/begin.png) no-repeat 100% 100% /cover; *//* box-shadow:0 0 24px rgba(112,8,69,.5); */}
 .game .kaishi img{width:90%;padding:5% 0 11.3%;margin:0 auto;box-shadow:none;display: block;}
 
 .zmd,.zmd2{position:absolute;width: 95vw;left: 0;top: 4%;max-width: 710px;}
@@ -108,9 +112,9 @@ a{
 }
 
 /*机会*/
-.change{text-align: center;}
-.change span{color:#fff;font-size: 15px;/* position:absolute; */right:0;bottom: 23%;line-height:18px;/* text-decoration: underline; */}
-.change span b{display:inline-block;height:17px;width:23px;background:#4f179c;border-radius:3px;margin:0 5px;text-align:center;}
+.chance{text-align: center;}
+.chance span{color:#fff;font-size: 15px;/* position:absolute; */right:0;bottom: 23%;line-height:18px;/* text-decoration: underline; */}
+.chance span b{display:inline-block;height:17px;width:23px;background:#4f179c;border-radius:3px;margin:0 5px;text-align:center;}
 
 /*其他人中奖信息*/
 .gun{background:url(../images/hdian.png) no-repeat center top /100% 100%;height:298px;margin:0 20px;margin-top: 20px;position:relative;}
@@ -233,6 +237,28 @@ h4 {
     height: 2.5em;
     margin-top: 1em;
 }
+.winningTan .nr{
+    height:170px;}
 .winningTan p{color:#000;margin: 0.6em auto;}
-.winningTan .p1{font-size: 2em;}
-.winningTan .p2{font-size: 1.5em;}
+.winningTan .p1{font-size: 1.7em;}
+.winningTan .p1 .red{color: red;}
+.winningTan .p2{font-size: 1.2em;}
+.winningTan .btnD{}
+.winningTan .btnD a{
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    background: -webkit-linear-gradient(top,#f52c78 0%,#b52a5c 100%);
+    background: linear-gradient(top,#f52c78 0%,#b52a5c 100%);
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 0 1.5em;
+}
+.winningTan .btnD a + a{
+    margin-left:1em;
+}
+.winningTan .nrText{
+    height:auto;
+}
