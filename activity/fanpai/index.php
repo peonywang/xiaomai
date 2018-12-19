@@ -27,7 +27,7 @@
         <img src="images/banner.jpg" alt="幸运大转盘" class="i1">
         <div class="guize">
             <span class="s1"><img src="images/guize.png" alt="抽中选中的奖品即可获得该图片所显示礼品"></span>
-            <p>我的奖品</p>
+            <p onclick="$(prize).show();">我的奖品</p>
         </div>
     </div>
     <?php
@@ -39,8 +39,8 @@
          ['name' => "20元优惠券",     'src' => "images/20yhq.png"],
          ['name' => "8.88元现金券",   'src' => "images/8xjq.png"],
          ['name' => "洗衣液",         'src' => "images/xiyiye.png"],
-         ['name' => "餐巾纸",         'src' => "images/canjinzhi.png"],
-         ['name' => "谢谢惠顾",   'src' => "images/xiexie.png"]
+         ['name' => "抽纸",         'src' => "images/canjinzhi.png"],
+         ['name' => "谢谢惠顾",       'src' => "images/xiexie.png"]
      ]
     ?>
     <div class="game">
@@ -67,18 +67,48 @@
     <div class="gun">
         <p class="p1"></p>
         <p class="p4">看看别人都翻到了什么</p>
-        <ul class="p6">
-            <div id="p6">
-                <li><span>130****0796</span><span class="sp">翻到了2%加息劵</span></li>
-                <li><span>130****0796</span><span class="sp">翻到了2%加息劵</span></li>
-                <li><span>130****0796</span><span class="sp">翻到了2%加息劵</span></li>
-                <li><span>130****0796</span><span class="sp">翻到了2%加息劵</span></li>
-                <li><span>130****0796</span><span class="sp">翻到了2%加息劵</span></li>
-            </div>
-            <div class="zan" style="display:none">
-                暂无记录
-            </div>
-        </ul>
+        <?php
+        // 模拟中奖信息
+        $LotteryLog = [
+            ['usertel'=>'130****0796','jiang'=>'30元优惠券'],
+            ['usertel'=>'130****0796','jiang'=>'20元优惠券'],
+            ['usertel'=>'130****0796','jiang'=>'8.88元现金券'],
+            ['usertel'=>'130****0796','jiang'=>'洗衣液'],
+            ['usertel'=>'130****0796','jiang'=>'抽纸'],
+        ]
+        ?>
+
+        <?php if(count(@$LotteryLog) > 0 && count(@$LotteryLog) < 5) { ?>
+            <ul class="p6">
+                <?php foreach (@$LotteryLog as $k => $v) { ?>
+                    <li>
+                        <span><?php echo $v['usertel']; ?></span>
+                        <span><?php echo $v['jiang']; ?></span>
+                    </li>
+                <?php } ?>
+            </ul>
+        <?php }elseif(count(@$LotteryLog) >= 5){ ?>
+            <ul class="p6" id="winningRecordUl">
+                <?php foreach (@$LotteryLog as $k => $v) { ?>
+                    <li>
+                        <span><?php echo $v['usertel']; ?></span>
+                        <span><?php echo $v['jiang']; ?></span>
+                    </li>
+                <?php } ?>
+            </ul>
+            <script src="js/MSClass.js"></script>
+            <script>
+            $(function(){
+                $("#winningRecordUl").css({"width":"94vw","height":'201px'});
+                var w = parseInt($("#winningRecordUl").css("width"))-15;
+                new Marquee("winningRecordUl",0,1,w,190,50,0,1000,52);
+            })
+            </script>
+        <?php }else{ ?>
+            <ul class="p6">
+                <li class="zan">暂无记录</li>
+            </ul>
+        <?php } ?>
         <p class="p5"></p>
     </div>
     <h4>活动最终解释权归光合种子所有</h4>
@@ -90,7 +120,7 @@
         <div class="nr">
             <div class="nrText">
                 <h3>▼我们的礼品：</h3>
-                <p>iPhoneX、Huawei Mate 20、199.99大红包、30元优惠券、20元优惠券、8.88元现金券、洗衣液、餐巾纸、谢谢惠顾</p>
+                <p>iPhoneX、Huawei Mate 20、199.99大红包、30元优惠券、20元优惠券、8.88元现金券、洗衣液、抽纸、谢谢惠顾</p>
 
                 <h3>▼如何获得抽奖机会：</h3>
                 <ol>
@@ -101,7 +131,7 @@
 
                 <h3>▼抽奖规则：</h3>
                 <ol>
-                    <li>1.每个九宫格每轮抽奖只能翻动<span>5</span>张，一轮中<span>同时翻出3张相同礼品图片</span>即可获得该礼品。</li>
+                    <li>1.每个九宫格每轮抽奖只能抽中一张</li>
                     <li>2.客服人员会在<span>获奖后三个工作日</span>内联系获奖用户确定获奖信息并及时安排奖品发放事宜。</li>
                 </ol>
             </div>
@@ -117,31 +147,24 @@
             <div class="nrText">
                 <div class="juan1">
                     <div class="left">
-                        <p>2%加息劵</p>
-                        <p>已使用</p>
+                        <p>20元代金券</p>
+                        <p>全场通用</p>
                     </div>
-                    <div class="right">已发放</div>
+                    <div class="right">领取</div>
+                </div>
+                <div class="juan1 act">
+                    <div class="left">
+                        <p>8.88元红包</p>
+                        <p>可提现</p>
+                    </div>
+                    <div class="right">已领取</div>
                 </div>
                 <div class="juan1">
                     <div class="left">
-                        <p>2%加息劵</p>
-                        <p><a href="">立即使用 〉</a></p>
+                        <p>洗衣液</p>
+                        <p>填写地址领取</p>
                     </div>
-                    <div class="right">已发放</div>
-                </div>
-                <div class="juan1">
-                    <div class="left">
-                        <p>iPhone7plus</p>
-                        <p>3个工作日内奖与您联系</p>
-                    </div>
-                    <div class="right">待发放</div>
-                </div>
-                <div class="juan1">
-                    <div class="left">
-                        <p>抽奖码：第1组63</p>
-                        <p>关注微信公众号</p>
-                    </div>
-                    <div class="right">待抽奖</div>
+                    <div class="right"><a href="product.php">领取</a></div>
                 </div>
             </div>
         </div>
@@ -157,7 +180,7 @@
                 <img class="tit" src="images/zjtit.png" alt="恭喜您中奖了">
                 <p class="p1">抽中奖品：<span class="red" id="mywintext"></span></p>
                 <p class="p2">分享活动可获得一次抽奖机会</p>
-                <div class="btnD"><a href="">去兑换</a><a href="">去分享</a></div>
+                <div class="btnD"></div>
             </div>
         </div>
     </div>
@@ -169,6 +192,7 @@
 
     var youxi = $("#youxiqu");// 游戏区
     var winningTan = $("#winningTan");//中奖弹窗
+    var winningTanTxt = $("#mywintext");//中奖文字
     // 判断机会
     var chance = <?php echo $chance; ?>;
     // 奖品及概率
@@ -207,7 +231,6 @@
                 else{i++;}
             }else{
                 i++;
-                console.log(fre,i);
                 if (i == (num + 1)){
                     clearInterval(zhuan);
                     setTimeout(callback,1000);
@@ -220,34 +243,70 @@
 
     $(function () {
         $("#begin").click(function () {
+            var jiangBtnD = '';
+            var titTxt = '';
+            var titImg = '';
             if(chance <= 0){
-                console.log("没机会了");
                 $(".chance b").text(0);
+                titTxt = '机会用完了!';
+                titImg = 'images/jhyw.png';
+                jiangBtnD = '<a href="javascript:;" onclick="$(prize).show();winningTan.hide();">我的奖品</a><a href="">去分享</a>';
+
+                $("h2",winningTan).text(titTxt);
+                $(".tit",winningTan).attr({"src":titImg,"alt":titTxt});
+                $(".btnD",winningTan).html(jiangBtnD);
+                $(".p1",winningTan).html('休息一下吧<span class="red" id="mywintext"></span>')
+                winningTan.show();
             }else{
                 chance--;
                 $(".chance b").text(chance);
                 var jiangNo = suiji();
-                console.log(charsTxt[jiangNo]);
                 var num = 0;//需要跳几步
                 switch (jiangNo){ //suiji() 奖品索引
-                    case 0: num = 0;break;
-                    case 1: num = 1;break;
-                    case 2: num = 2;break;
-                    case 3: num = 7;break;
-                    case 4: num = 3;break;
-                    case 5: num = 6;break;
-                    case 6: num = 5;break;
-                    case 7: num = 4;break;
+                    case 0:
+                        num = 0;
+                        titTxt='哇塞！恭喜您';break;//手机
+                    case 1:
+                        num = 1;
+                        titTxt='哇塞！恭喜您';break;//199红包
+                    case 2:
+                        num = 2;
+                        titTxt='哇塞！恭喜您';
+                        titImg='images/zjtit.png';
+                        jiangBtnD='<a href="">去兑换</a><a href="">去分享</a>';break;//30元优惠券
+                    case 3:
+                        num = 7;
+                        titTxt='哇塞！恭喜您';
+                        titImg='images/zjtit.png';
+                        jiangBtnD='<a href="">去兑换</a><a href="">去分享</a>';break;//20元优惠券
+                    case 4:
+                        num = 3;
+                        titTxt='哇塞！恭喜您';
+                        titImg='images/zjtit.png';
+                        jiangBtnD='<a href="">去兑换</a><a href="">去分享</a>';break;//8.8红包
+                    case 5:
+                        num = 6;
+                        titTxt='哇塞！恭喜您';
+                        titImg='images/zjtit.png';
+                        jiangBtnD='<a href="product.php">去兑换</a><a href="">去分享</a>';break;//洗衣液
+                    case 6:
+                        num = 5;
+                        titTxt='哇塞！恭喜您';
+                        titImg='images/zjtit.png';
+                        jiangBtnD='<a href="product.php">去兑换</a><a href="">去分享</a>';break;//抽纸
+                    case 7:
+                        num = 4;
+                        titTxt='呜呜!好难瘦';
+                        titImg='images/wzjtit.png';
+                        jiangBtnD='<a href="javascript:;" onclick="$(prize).show();winningTan.hide();">我的奖品</a><a href="">去分享</a>';break;//谢谢
                     default: break;
                 }
                 donghua(3,num,function () {
-                    if(jiangNo<7){
-                        $("#mywintext").html(charsTxt[jiangNo]);
-                        winningTan.show();
-                    }else{
-                        $("#mywintext").html(charsTxt[jiangNo]);
-                        winningTan.show();
-                    }
+                    $("h2",winningTan).text(titTxt);
+                    $(".tit",winningTan).attr({"src":titImg,"alt":titTxt});
+                    $(".btnD",winningTan).html(jiangBtnD);
+                    winningTanTxt.html(charsTxt[jiangNo]);
+                    winningTan.show();
                 });
             }
         })
