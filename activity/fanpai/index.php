@@ -18,8 +18,10 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <script src="js/jquery-1.11.3.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
     <title>翻牌抽奖</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="js/mobileSelect/mobileSelect.css">
+    <script src="js/mobileSelect/mobileSelect.js"></script>
 </head>
 <body>
 <div class="w750">
@@ -111,7 +113,7 @@
         <?php } ?>
         <p class="p5"></p>
     </div>
-    <h4>活动最终解释权归光合种子所有</h4>
+    <h4>活动最终解释权归小麦商城所有</h4>
 </div>
 <!-- 规则 -->
 <div class="tan shuangTan" id="rule" style="display:none;">
@@ -154,8 +156,22 @@
                 </div>
                 <div class="juan1 act">
                     <div class="left">
+                        <p>20元代金券</p>
+                        <p>请到"我的优惠券"里查看</p>
+                    </div>
+                    <div class="right">领取</div>
+                </div>
+                <div class="juan1">
+                    <div class="left">
                         <p>8.88元红包</p>
                         <p>可提现</p>
+                    </div>
+                    <div class="right">已领取</div>
+                </div>
+                <div class="juan1 act">
+                    <div class="left">
+                        <p>8.88元红包</p>
+                        <p>请到"我的钱包"里提现</p>
                     </div>
                     <div class="right">已领取</div>
                 </div>
@@ -164,14 +180,21 @@
                         <p>洗衣液</p>
                         <p>填写地址领取</p>
                     </div>
-                    <div class="right"><a href="product.php">领取</a></div>
+                    <div class="right" onclick="$(addressTan).show();">领取</a></div>
+                </div>
+                <div class="juan1 act">
+                    <div class="left">
+                        <p>洗衣液</p>
+                        <p>请到"我的订单"里查看</p>
+                    </div>
+                    <div class="right">领取</div>
                 </div>
             </div>
         </div>
     </div>
     <p class="btn"><img src="images/btn.png" alt="关闭" class="close" width="35" height="35"></p>
 </div>
-<!-- 中奖弹窗-->
+<!-- 中奖弹窗 -->
 <div class="tan shuangTan winningTan" id="winningTan" style="display: none">
     <h2>哇塞！恭喜您</h2>
     <div class="nrk" style="width:76%;margin:0 12%">
@@ -186,10 +209,49 @@
     </div>
     <p class="btn"><img src="images/btn.png" alt="关闭" class="close" width="35" height="35"></p>
 </div>
+<!-- 地址填写 -->
+<div class="tan shuangTan address" id="addressTan" style="display:none;">
+    <h2>填写收货地址</h2>
+    <div class="nrk">
+        <div class="nr">
+            <div class="nrText">
+                <ul class="dress">
+                    <li>
+                        <label>
+                            <span class="s1">收货人</span>
+                            <input type="text" placeholder="填写您的姓名">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <span class="s1">手机号</span>
+                            <input type="tel" placeholder="填写您的手机号">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <span class="s1">所在区域</span>
+                            <div class="s2" id="trigger4">选择所在区域</div>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <span class="s1">详细地址</span>
+                            <input type="textarea" placeholder="填写您的详细地址">
+                        </label>
+                    </li>
+                </ul>
+                <div class="btnD">
+                    <a href="">提交</a>
+                </div>
+                <p class="p2 t_cent">请检查好您的地址</p>
+            </div>
+        </div>
+    </div>
+    <p class="btn"><img src="images/btn.png" alt="关闭" class="close" width="35" height="35"></p>
+</div>
 <script>
     //游戏规则
-
-
     var youxi = $("#youxiqu");// 游戏区
     var winningTan = $("#winningTan");//中奖弹窗
     var winningTanTxt = $("#mywintext");//中奖文字
@@ -240,8 +302,8 @@
         var zhuan = setInterval(zhuanFn,time);
     }
 
-
     $(function () {
+        //开始游戏
         $("#begin").click(function () {
             var jiangBtnD = '';
             var titTxt = '';
@@ -288,12 +350,12 @@
                         num = 6;
                         titTxt='哇塞！恭喜您';
                         titImg='images/zjtit.png';
-                        jiangBtnD='<a href="product.php">去兑换</a><a href="">去分享</a>';break;//洗衣液
+                        jiangBtnD='<a href="">去兑换</a><a href="">去分享</a>';break;//洗衣液
                     case 6:
                         num = 5;
                         titTxt='哇塞！恭喜您';
                         titImg='images/zjtit.png';
-                        jiangBtnD='<a href="product.php">去兑换</a><a href="">去分享</a>';break;//抽纸
+                        jiangBtnD='<a href="">去兑换</a><a href="">去分享</a>';break;//抽纸
                     case 7:
                         num = 4;
                         titTxt='呜呜!好难瘦';
@@ -309,138 +371,60 @@
                     winningTan.show();
                 });
             }
-        })
-    })
-//    var chance = 9;
-//    var canChance = 5;
-//    var useChance = 0;
-//    var surplus = chance - canChance;
-//    //设置几率及相应图片文字
-//    var charsNum = [0,0,0,10,14,2,2,2,70];
-//    //奖品数量
-//    var jiangpin = charsNum.length;
-//    var jiangpinIndex = jiangpin;//对应索引
-//    var charsSum = 0;
-////    console.log(jiangpinIndex);
-//    for(var i = 0; i < jiangpin; i++){charsSum += charsNum[i];}
-//    var chars = [];
-//    //一等奖初次中奖概率
-//    var firstJiangpin = 0.3;
-//    //设置概率数组
-//    function setChars(num){
-//        chars[0]= charsSum*num/(1-num);
-//        for(i = 1; i < jiangpin; i++){
-//            chars[i] =  chars[i-1] + charsNum[i];
-//            console.log(chars[i]);
-//        }
-//    }
-//    //概率组
-//    setChars(firstJiangpin);
-//    // 对应索引的文字及图片
-//    var charsTxt =[<?php //foreach ($jiang as $k => $v){echo '"'.$v['name'].'",';} ?>//];
-//    var imgUrl = [<?php //foreach ($jiang as $k => $v){echo '"'.$v['src'].'",';} ?>//]
-//    //初始化中奖次数
-//    var caseNo = [];
-//    for(i=0;i<jiangpin;i++){
-//        caseNo.push(0);
-//    };
-//
-//    //定义奖品等级变量
-//    var jiangNo;
-//    var kuaizhong = false;//是否快中奖变量
-//    var kuaizhongNo;//快中奖索引
-//    var zhongjiang = false;//是否中奖了
-//    var failTan = $("#noWinningTan");
-//
-//    //初始化
-//    var fanpaiLi;//点击模块
-//    var bgImgEven = "";//背景模块
-//    var jiangpinEven = "";//奖品模块
-//    var open = "";//点开状态
-//    var openClass = "";//点开状态类名
-//    var on = "";//牌可点击状态
-//    var onClass = "";//牌可点击状态类名
-//    var suiji;
-//    var winningTan = $("#winningTan");
-
-    $(function () {
-        //游戏开始按钮
-//        $("#begin").click(function(){
-//            $(this).attr("src","images/anxia.png");
-//            $(".zmd,.zmd2").css("animation-duration","0.5s");
-//            var beginHtml = '';
-//            var youxiLiHtml = '<li class="on"> <div class="d1"> <img src="images/weixuanzhong.jpg"> </div> <div class="d2"> <img src=""> </div> </li>';
-//            // var youxiLiHtml2 = '<li class="on mg0"> <div class="d1"> <img src="images/weixuanzhong.jpg"> </div> <div class="d2"> <img src=""> </div> </li>';
-//            for(i = 0; i < 9; i++){
-//                beginHtml = beginHtml + youxiLiHtml;
-//            }
-//            $("#youxiqu").delay(100).fadeOut(function(){
-//                $(this).html(beginHtml);
-//                //初始化
-//                fanpaiLi = $("#youxiqu li.on");//点击模块
-//                bgImgEven = ".d1 img";//背景模块
-//                jiangpinEven = ".d2 img";//奖品模块
-//                open = ".open";//点开状态
-//                openClass = "open";//点开状态类名
-//                on = ".on";//牌可点击状态
-//                onClass = "on";//牌可点击状态类名
-//                // var chanceD = $("#chance span");//机会显示框
-//            }).delay(200).fadeIn(function(){
-//                //记录已翻开的数据
-//                function jiluNo(i){
-//                    caseNo[i]++;
-//                    if(caseNo[0]>0){
-//                        setChars(0);
-//                        chars[0] = -1;
-//                    }
-//                    if(caseNo[i]==2){
-//                        kuaizhong = true;
-//                        kuaizhongNo = i;
-//                    }
-//                }
-//
-//                //判断是否中奖
-//                function panduan(){
-//                    for(i=0;i<jiangpin;i++){
-//                        if(caseNo[i]==3){
-//                            $("#mywintext").html(charsTxt[i]);
-//                            winningTan.show();
-//                            console.log('中奖了')
-//                            caseNo[i]=0;
-//                            zhongjiang = true;
-//                            //document.location.href="zhong.php"//中奖跳转页面
-//                        }
-//                    }
-//                }
-//
-//                }
-//
-//                //点击翻牌
-//                fanpaiLi.click(function() {
-//                    var _this = $(this);
-//                    var bgImg = $(bgImgEven,_this);//背景img
-//                    var jiangpinImg = $(jiangpinEven,_this);//奖品img
-//
-//
-//                    if(!_this.is(open)){
-//                        if(_this.is('.on')){
-//                            fanpaiLi.removeClass('on');
-//                            chance--;
-//                            useChance++;
-//                            _this.addClass(openClass);
-//
-//
-//
-//                        }
-//                    }
-//                });
-//            });
-//        });
+        });
         //关闭弹窗
         $(".close").click(function () {
             $(this).parents(".tan").hide();
         })
-    })
+        //地址区域获取
+        var mobileSelect = new MobileSelect({
+            trigger: '#trigger4',
+            title: '所在区域',
+            wheels: [
+                {data:[
+                    {
+                        id:'1',
+                        value:'省',
+                        childs:[
+                            {
+                                id:'A1',value:'市',childs:[
+                                {id:'B1',value:'区'}
+                            ]
+                            },
+                        ]
+                    }
+                ]},
+            ],
+            callback:function(indexArr, data){
+                mobileSelect.position=[indexArr];
+            }
+
+        });
+
+        $.ajax({
+            url: 'js/city.json',
+            type: 'GET',
+            dataType: 'json',
+        })
+            .done(function(data) {
+                var city = [];
+                for(var i=0; i<data.length; i++){
+                    city[i] = {id:i+1, value:data[i]['name'],childs:[]}
+                    for(var i2=0; i2<data[i]['city'].length; i2++){
+                        city[i]['childs'][i2] = {id:1,value:data[i]['city'][i2]['name'],childs:[]};
+                        for(var i3=0; i3<data[i]['city'][i2]["area"].length; i3++){
+                            city[i]['childs'][i2]['childs'][i3] = {id:i3+1,value:data[i]['city'][i2]["area"][i3]}
+                        }
+                    }
+                }
+                mobileSelect.updateWheels(city);
+                // mobileSelect.updateWheels(data);
+
+            })
+            .fail(function() {
+                console.log("error");
+            })
+    });
 
 </script>
 </body>
