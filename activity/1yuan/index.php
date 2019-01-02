@@ -11,11 +11,12 @@
 </head>
 <body>
   <div class="yuanD">
-    <div class="top">
+    <h1 class="top">
       <img src="images/top.jpg" alt="助力1元购">
-    </div>
+    </h1>
+    <!-- 商品 -->
     <div class="main">
-      <img src="images/tit.jpg" alt="热卖推荐专区">
+      <h2><img src="images/tit.jpg" alt="热卖推荐专区"></h2>
       <ul class="zhuanqu">
         <li>
           <div class="d1">
@@ -26,8 +27,22 @@
               <a href="pro.php">立即订购 &gt;</a>
             </div>
           </div>
+          <div class="d2">
+            <img src="images/pro.jpg" alt="商品图">
+          </div>
         </li>
       </ul>
+    </div>
+    <!-- 规则 -->
+    <div class="rule">
+      <h2>活动规则</h2>
+      <p>▼抽奖规则：</p>
+      <ol>
+        <li>「声明」由于购买活动特殊性，用户成功支付1元购买后，不能退订退款。</li>
+        <li>用户邀请好友助力，帮助自己支付1元钱助力，被成功助力后用户可获得兑换的奖品。</li>
+        <li>活动奖品数量有限，先到先得。用户在活动中仅可支付一次，即自己支付或帮好友支付一次。</li>
+        <li>用户在本活动不可使用优惠券购买活动奖品，奖品配送地区不包括港澳台地区，请谅解。</li>
+      </ol>
     </div>
   </div>
 </body>

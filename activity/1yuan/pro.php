@@ -9,6 +9,6 @@
 </head>
 <body>
 商品详情
-<a href="address.php">立即购买</a>
+<a href="bill.php">立即购买</a>
 </body>
 </html>
