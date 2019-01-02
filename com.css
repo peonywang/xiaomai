@@ -92,6 +92,7 @@ input[type="checkbox"]:checked:after {
 	background: rgba(0,0,0,0.5);
 	z-index: 1;
 	max-width: 750px;
+	padding-bottom: 100vh;
 }
 .tan .close {
     position: absolute;

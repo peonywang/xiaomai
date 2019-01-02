@@ -23,7 +23,9 @@ body{
     background: url('../images/dressbg.png') repeat-x bottom left,#FFF;
     background-size: auto 2px;
 }
-.adrD .list .d1{}
+.adrD .list .d1{
+    flex: 1;
+}
 .adrD .list .act .s1:after{
     content: '默认 ';
     background: #fed71f;

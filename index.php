@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="js/swiper/swiper.min.css">
 	<script src="js/swiper/swiper.min.js"></script>
 	<!-- 详情页样式 -->
-	<link rel="stylesheet" href="css/pro.css">
+	<link rel="stylesheet" href="css/pro.css?1.0">
 </head>
 <body>
 	<!-- 详情页 -->
@@ -76,7 +76,7 @@
 				<span>客服</span>
 			</a>
 			<a href="javascript:;" class="a2" onclick="$(typesChose).show();">加入购物车</a>
-			<a href="javascript:;" class="a3" onclick="$(loginTan).show()">立即购买</a>
+			<a href="javascript:;" class="a3" id="ljgm">立即购买</a>
 			<!-- 悬浮购物车 -->
 			<a href="shopcart.php" class="cartD">
 				<img src="images/cart.png" alt="购物车">
@@ -244,6 +244,9 @@
 	    	} 
 	    })
 
+
+		var winH = $(window).height();
+
 		// 领取优惠券
 		$(function(){
 			$(".choseTan ul.yh li").click(function () {
@@ -256,6 +259,17 @@
 					$(this).addClass("ylq");
 				}
 
+			})
+			//点击立即购买
+			$("#ljgm").click(function () {
+				$("#loginTan").show().css("min-height",winH);
+				//页面不滚动
+				$(".proD").css({"height":(winH-40),"overflow-y":"hidden"});
+				$("#loginTan .btnD a").click(function () {
+					//页面滚动
+					$(".proD").css({"height":"auto","overflow-y":"unset"});
+
+				});
 			})
 		})
 	</script>
