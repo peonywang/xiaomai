@@ -6,7 +6,31 @@
     background: url("../images/bg.jpg") repeat-y;
     background-size: 100% auto;
 }
+.zhuanqu{
+
+}
+.zhuanqu .a1{
+    -webkit-display:flex;
+    display: flex;
+}
+/*规则*/
 .yuanD .rule{
-    background: #9e0be8;
+    background-color: #9e0be8;
     color:#FFF;
+    font-size:12px;
+    padding: 20px 20px 40px;
+    background-image: url("../images/rulebg.png");
+    background-repeat: no-repeat;
+    background-position: right 20px;
+    background-size: 15% auto;
+}
+.yuanD .rule h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 2;
+}
+.yuanD .rule li{
+    list-style: decimal inside;
+    line-height: 2;
 }

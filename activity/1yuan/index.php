@@ -17,21 +17,23 @@
     <!-- 商品 -->
     <div class="main">
       <h2><img src="images/tit.jpg" alt="热卖推荐专区"></h2>
-      <ul class="zhuanqu">
-        <li>
+      <div class="zhuanqu">
+        <?php for($i=0;$i<4;$i++){ ?>
+        <a class="a1" href="pro.php">
           <div class="d1">
             <div class="name">新疆和田大枣思路红和田骏五星红枣特产500g</div>
             <div class="pri">
               <span class="s1">助力价格：</span>
               <b>1</b>
-              <a href="pro.php">立即订购 &gt;</a>
+              <span class="btn">立即订购 &gt;</span>
             </div>
           </div>
           <div class="d2">
             <img src="images/pro.jpg" alt="商品图">
           </div>
-        </li>
-      </ul>
+        </a>
+        <?php } ?>
+      </div>
     </div>
     <!-- 规则 -->
     <div class="rule">
