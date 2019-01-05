@@ -22,6 +22,8 @@
 		<div class="banner">
 			<div class="swiper-container" id="pro-banner">
 				<div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="activity/fanpai"><img src="activity/fanpai/images/banner.jpg" alt="翻拍活动"></a></div>
+                    <div class="swiper-slide"><a href="activity/1yuan"><img src="activity/1yuan/images/top.jpg" alt="1元"></a></div>
 					<?php foreach ($banData as $k => $v) { ?>
 					    <div class="swiper-slide">
 					    	<img src="<?php echo $v ?>">
@@ -65,6 +67,9 @@
 			<span class="s1">评论</span>
 			<span class="gray">145条评论</span>
 		</a>
+        <!-- 活动 -->
+        <a href="activity/fanpai" class="btnTiao"><span class="s1">翻拍活动</span></a>
+        <a href="activity/1yuan" class="btnTiao"><span class="s1">1元购</span></a>
 		<!-- 详情图 -->
 		<div class="proI">
 			<img src="images/proImg.png" alt="详情图1">

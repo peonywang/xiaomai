@@ -1,10 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <?php include("comhead.php");?>
   <title>1元购</title>
   <link rel="stylesheet" href="css/com.css">
   <link rel="stylesheet" href="css/style.css">
@@ -17,23 +14,25 @@
     <!-- 商品 -->
     <div class="main">
       <h2><img src="images/tit.jpg" alt="热卖推荐专区"></h2>
-      <div class="zhuanqu">
+      <ul class="zhuanqu">
         <?php for($i=0;$i<4;$i++){ ?>
-        <a class="a1" href="pro.php">
-          <div class="d1">
-            <div class="name">新疆和田大枣思路红和田骏五星红枣特产500g</div>
-            <div class="pri">
-              <span class="s1">助力价格：</span>
-              <b>1</b>
-              <span class="btn">立即订购 &gt;</span>
-            </div>
-          </div>
-          <div class="d2">
-            <img src="images/pro.jpg" alt="商品图">
-          </div>
-        </a>
+            <li class="li1">
+                <a class="a1" href="pro.php">
+                    <div class="d1">
+                        <div class="name">新疆和田大枣思路红和田骏五星红枣特产500g</div>
+                        <div class="pri">
+                            <span class="s1">助力价格：</span>
+                            <b>1</b>
+                            <span class="btn">立即订购 &gt;</span>
+                        </div>
+                    </div>
+                    <div class="d2">
+                        <img src="images/pro.jpg" alt="商品图">
+                    </div>
+                </a>
+            </li>
         <?php } ?>
-      </div>
+      </ul>
     </div>
     <!-- 规则 -->
     <div class="rule">
