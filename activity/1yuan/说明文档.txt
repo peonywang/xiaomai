@@ -1,0 +1,7 @@
+﻿1.商品页面样式先引用一下原来的
+    <!-- 轮播插件 -->
+    <link rel="stylesheet" href="../../js/swiper/swiper.min.css">
+    <script src="../../js/swiper/swiper.min.js"></script>
+    <!-- 详情页样式 -->
+    <link rel="stylesheet" href="../../css/pro.css">
+2
