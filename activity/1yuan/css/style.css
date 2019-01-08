@@ -121,3 +121,72 @@ padding: 15px;
     list-style: decimal inside;
     line-height: 2;
 }
+/*助力进度*/
+.yuanD .main{
+    overflow: hidden;;
+}
+.yuanD .jindD{
+    background: #FFF;
+    border-radius: 10px 10px 0 0;
+    margin: 15px 15px 20px;
+    text-align: center;
+}
+.yuanD .jindD h2{
+    background: #bb27d5;
+    color: #FFF;
+    margin: 0 auto 20px;
+    width:7.5em;
+    border-radius: 0 0 10px 10px;
+    line-height: 2.5;
+}
+.yuanD .jdUl{
+    -webkit-display:flex;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+.yuanD .jdUl li{
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    /* max-width: 25%; */
+    /* max-height: 25%; */
+    background: #b300dc;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    color: #FFF;
+    line-height: 25vw;
+}
+
+.yuanD .jdUl li img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.yuanD .jdUl li .i1{
+    border: 1px solid #bb27d5;
+}
+.yuanD .jdUl .user{
+    position: absolute;
+    width: 40px;
+    height:40px;
+    top: -10px;
+    left:0;
+}
+.yuanD .jindD .p1{
+    color:#bb27d5;
+    padding: 0 15px;
+    font-size: 14px;
+}
+.yuanD .btnD .btn{
+    background: #bb27d5;
+    color: #FFF;
+    line-height: 2.5;
+    padding: 0 2em;
+    border-radius: 2em;
+    font-size: 18px;
+    display: inline-block;
+    margin: 1em auto;
+}
