@@ -150,13 +150,15 @@ padding: 15px;
     position: relative;
     width: 25vw;
     height: 25vw;
-    /* max-width: 25%; */
-    /* max-height: 25%; */
+    max-width: 188px;
+    max-height: 188px;
     background: #b300dc;
     border-radius: 50%;
     margin-bottom: 20px;
     color: #FFF;
-    line-height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .yuanD .jdUl li img{

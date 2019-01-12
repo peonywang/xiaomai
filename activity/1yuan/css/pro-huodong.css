@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.huodong{
+    position: relative;
+    border: 5px solid #fbeba7;
+}
+.huodong .tit{
+    background: url("../images/huodong.png") no-repeat center;
+    background-size:auto 100%;
+    text-align: center;
+    line-height: 3;
+    position: relative;
+    z-index: 1;
+    top: -1.6em;
+    margin-bottom: -2em;
+}
+.huodong ol{
+    padding: 0 20px 10px;
+    color: #666;
+    line-height: 1.6;
+}

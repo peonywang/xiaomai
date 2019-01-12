@@ -8,3 +8,4 @@
 <meta name="author" content="Peony Wang,fhjl1989@163.com">
 <meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
 <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+<script src="../../js/jquery-1.11.3.min.js"></script>

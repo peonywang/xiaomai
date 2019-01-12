@@ -1,7 +1,19 @@
-﻿1.商品页面样式先引用一下原来的
+﻿以往的样式有修改的地方：
+1.商品详情页面样式文件css/pro.css,
+	修改地方：
+	添加样式#origin-img{z-index：1;}
+2.添加地址页面样式address.css
+	修改地方：
+	添加样式.adrD .list .d1{flex:1}
+
+-----------------------------------------
+活动1元邀请页面说明：
+1.商品页面样式先引用一下原来的
     <!-- 轮播插件 -->
     <link rel="stylesheet" href="../../js/swiper/swiper.min.css">
     <script src="../../js/swiper/swiper.min.js"></script>
     <!-- 详情页样式 -->
     <link rel="stylesheet" href="../../css/pro.css">
-2
+2.分享页面引用一下原来的
+    <link rel="stylesheet" href="../../com.css">
+    <link rel="stylesheet" href="../../css/pro.css">
