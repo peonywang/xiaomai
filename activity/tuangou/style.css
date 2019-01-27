@@ -1,0 +1,191 @@
+@charset "UTF-8";
+.tuangou{
+    border-top: 10px solid #f6f6f6;
+}
+.tuangou .tit{
+    text-align: center;
+    line-height: 3;
+}
+.tuangou .ul1{
+    padding: 0 0.5em;
+}
+.tuangou .ul1 li{
+    display: flex;
+    align-items: center;
+}
+.tuangou .ul1 li .userImg img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+.tuangou .ul1 li .userName{}
+.tuangou .ul1 li .dis{text-align: right;flex: 1;}
+.tuangou .ul1 li .dis .p1{}
+.tuangou .ul1 li .dis .p2{
+    font-size: 11px;
+    color: #999;
+}
+.tuangou .ul1 li .btnD a{
+    background: #f4353a;
+    color: #FFF;
+    line-height: 2;
+    display: block;
+    padding: 0 1em;
+}
+.rmb{
+    display: block;
+    line-height: 2;
+    margin-top: 0.3em;
+}
+.rmb:before{
+    content: "¥ ";
+}
+.botT .a2, .botT .a3{
+    line-height: 1;
+}
+/*弹窗*/
+.joinTan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 1em 2em;
+}
+.joinTan .tanNr{
+    background: #FFF;
+    text-align: center;
+    padding: 1em 1em 2em;
+    border-radius: 10px;
+}
+.joinTan .tit{
+    text-align: center;
+    line-height: 3;
+}
+.joinTan .dis{
+    text-align: center;
+    padding-top: 0;
+}
+.joinTan .dis .red{
+    font-size: 1.5em;
+}
+
+.joinTan .userD{
+    margin: 1em auto 1.5em;
+    display: flex;
+    justify-content: center;
+}
+.joinTan .userI + .userI{margin-left: 1em;}
+.joinTan .userI img{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+}
+.joinTan .userMaster{
+    position: relative;
+}
+.joinTan .userMaster:after{
+    content: '';
+    background: url("images/master.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 2.8em;
+    height: 1.4em;
+    bottom: -7px;
+    left: 50%;
+    margin-left: -1.4em;
+}
+.joinTan .btnD .btn{
+    display: block;
+    background: #f4353a;
+    color: #FFF;
+    line-height: 2.5;
+    font-size: 1.1em;
+    width: 100%;
+}
+/*拼团详情*/
+.shoplist{
+    border-radius: 5px;
+    display: flex;
+    padding: 1em;
+    align-items: stretch;
+    position: relative;
+    background: #FFF;
+    border-bottom: 10px solid #f6f6f6;
+}
+.shoplist .d2 img{
+    width: 6em;
+    height: 6em;
+    margin-right: 0.5em;
+}
+.shoplist .d3 {
+    font-size: .9em;
+}
+.shoplist .d3 .p1 {
+    text-align: justify;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.shoplist .d3 p {
+    margin: 5px 0;
+}
+.shoplist .d3 .numD {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+}
+.shoplist .pinNum{
+    background: #f5f5f5;
+    border:1px solid #e8e8e8;
+    border-radius: 1.5em;
+    padding: 0 1.5em;
+}
+/*拼团详情-参与拼团*/
+.joinTan.joinSell{
+border-bottom: 10px solid #f6f6f6;
+}
+.joinTan.joinSell .tanNr {
+    padding: 0;
+    width: 100%;
+}
+.joinTan .btnD .btn + .btn{
+    margin-top: 1em;
+}
+.joinTan .btnD .btn2{
+    background: #f5f5f5;
+    color: #f4353a;
+    border:1px solid #f4353a;
+    box-sizing: border-box;
+}
+/*商品推荐*/
+.recommend{}
+.recommend .tit{padding: 1em;}
+.recommend .tit b{}
+.recommend .tit .dis{
+    font-size: .8em;
+    margin-left: .5em;
+    color: #999;
+}
+.recommend .porlist{display: flex;flex-wrap: wrap;padding: 0 .5em;}
+.recommend .porlist a{
+    width: 50%;
+    padding: 0 .5em .5em;
+    box-sizing: border-box;
+}
+.recommend .porlist .imgD{}
+.recommend .porlist .imgD img{width: 100%;}
+.recommend .porlist .name{
+}
+.recommend .porlist .dis{
+    font-size: .9em;
+    color: #666;
+    height: 2.4em;
+    margin: .5em auto;
+    overflow: hidden;
+    line-height: 1.2em;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+}

@@ -22,6 +22,7 @@
 		<div class="banner">
 			<div class="swiper-container" id="pro-banner">
 				<div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="activity/tuangou"><img src="activity/tuangou/images/banner.png" alt="拼团活动"></a></div>
                     <div class="swiper-slide"><a href="activity/fanpai"><img src="activity/fanpai/images/banner.jpg" alt="翻拍活动"></a></div>
                     <div class="swiper-slide"><a href="activity/1yuan"><img src="activity/1yuan/images/top.jpg" alt="1元"></a></div>
 					<?php foreach ($banData as $k => $v) { ?>

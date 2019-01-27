@@ -21,7 +21,7 @@
     <li class="shoplist">
       <h2>订单信息</h2>
       <ul>
-        <?php for ($i =0;$i<3;$i++){ ?>
+        <?php for ($i =0;$i<1;$i++){ ?>
         <li>
           <a href="index.php" class="d2">
             <img src="images/proImg.png">
@@ -96,7 +96,7 @@
         <span class="equal">180</span>
       </p>
     </div>
-    <a href="address.php" class="a3">立即支付</a>
+    <a href="activity/tuangou/spellList.php" class="a3">立即支付</a>
   </div>
   <!-- 优惠券弹窗 -->
   <div class="tan" id="youhuiTan">
