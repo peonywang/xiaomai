@@ -175,7 +175,8 @@ border-bottom: 10px solid #f6f6f6;
     box-sizing: border-box;
 }
 .recommend .porlist .imgD{}
-.recommend .porlist .imgD img{width: 100%;}
+.recommend .porlist .imgD img{width: 100%;display: block;}
+.recommend .porlist .nr{border:1px solid #ebe9eb;padding: .5em;}
 .recommend .porlist .name{
 }
 .recommend .porlist .dis{

@@ -96,7 +96,7 @@
         <span class="equal">180</span>
       </p>
     </div>
-    <a href="activity/tuangou/spellList.php" class="a3">立即支付</a>
+    <a href="activity/tuangou/spellList.php?role=1" class="a3">立即支付</a>
   </div>
   <!-- 优惠券弹窗 -->
   <div class="tan" id="youhuiTan">
