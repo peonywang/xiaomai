@@ -1,0 +1,227 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑", "arial";
+    text-align: justify;
+}
+a{
+    font-style: normal;
+    text-decoration: unset;
+}
+.news{
+    width: 100vw;
+    max-width: 750px;
+    margin:0 auto;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+input{
+    -webkit-appearance: none;
+}
+.news .inf,.news .dis,.news .share,.news .hot a{
+    padding: 1em;
+}
+/*信息*/
+.news .inf{
+    border-bottom: 1px solid #dcdcdc;
+}
+.news .inf .d1{
+    font-size: 1.1em;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+.news .inf .time{
+    color: #a0a0a0;
+    font-size: .8em;
+    line-height: 3;
+}
+/*详情*/
+.dis{
+    height: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+.dis.show{
+    height: auto;
+    padding-bottom: 3.5em;
+}
+.dis p{
+    margin: 1em auto;
+    color: #666;
+}
+.dis .more{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 1em 0 1em;
+    background: linear-gradient(rgba(255,255,255,0),#FFF 20%);
+    box-sizing: border-box;
+    left: 0;
+}
+.dis .more img{
+    width: 2em;
+    margin:0 auto;
+}
+.dis.show .more img{
+    transform: rotate(180deg);
+}
+.news .share{
+    border-bottom: 1px solid #dcdcdc;
+}
+.share h2{
+    color: #de4c4e;
+    text-align: center;
+    font-size: 0.9em;
+    padding-bottom: 1.5em;
+    position: relative;
+}
+
+.share h2:after,
+.share h2:before{
+    content:"";
+    width: 3em;
+    height: 1px;
+    position: absolute;
+    z-index: -1;
+    background: url("images/ge.png");
+    background-size: 100% 100%;
+    top: 0.7em;
+}
+.share h2:after{
+    right: 0;
+    transform: rotate(180deg);
+}
+.share h2:before{
+    left: 0;
+}
+.share h2 span{
+    background: #FFF;
+    padding: 0 0.5em;
+    position: relative;
+}
+.share .shareD{
+    display: flex;
+    justify-content: space-around;
+}
+.share .shareD img{
+    width: 15vw;
+    height: 15vw;
+    margin-bottom: .5em;
+}
+.share .shareD a {
+    text-align: center;
+    color: #333;
+    font-size: .8em;
+}
+/*hot*/
+.hot{}
+.hot h2{padding: 1em 1em 0;font-size: 1em;font-weight: normal;}
+.hot .list{
+    border-bottom: 1px solid #dcdcdc;
+    color: #333;
+    display: flex;
+}
+.hot .list .imgD{
+    width: 6.7em;
+    height: 4em;
+    overflow: hidden;
+    margin-right: 1em;
+}
+.hot .list .imgD img{
+    width: 100%;
+}
+.hot .list .d2{
+    flex: 1;
+}
+.hot .list .d2 .p1{
+    font-size: 1em;
+}
+.hot .list .d2 .p2{
+    color: #a0a0a0;
+    font-size: .85em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-align: justify;
+    letter-spacing: -1px;
+}
+.news .bottom{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left:0;
+    background: #FFF;
+    border-top: 1px solid #ddd;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7em 1em;
+    box-sizing: border-box;
+}
+.news .bottom .shuru{
+    flex-grow: 1;
+    background: #f5f5f5;
+    border-radius: 2em;
+    margin-right: 0.5em;
+    padding: .5em;
+    display: flex;
+    position: relative;
+    flex-shrink: 1;
+    overflow: hidden;
+}
+.news .bottom .shuru:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1em;
+    height: 2em;
+    left: 1em;
+    background: url("images/xiugai.png") no-repeat;
+    background-size: 100%;
+}
+.news .bottom .shuru input{
+    flex: 1;
+    background: none;
+    border: none;
+    margin-left: 2.5em;
+}
+.news .bottom .comment{
+    height: 1.5em;
+    width: 1.7em;
+    flex-shrink: 0;
+    background: url("images/xiaoxi.png") no-repeat;
+    background-size: auto 100%;
+}
+.news .bottom .comment.act{
+    display: none;
+}
+.news .bottom .gotop{
+    display: none;
+    background: url("images/xiaoxi.png") no-repeat;}
+.news .bottom .comment.act + .gotop{
+    display: block;
+}
+.news .bottom .collect{
+    height: 1.5em;
+    width: 1.7em;
+    background: url("images/shoucang.png") no-repeat;
+    background-size: auto 100%;
+    margin: 0 0.5em;
+    flex-shrink: 0;
+}
+.news .bottom .collect.act{
+    background-image: url("images/shoucang2.png");
+}
+.news .bottom .buy{
+    background: #1cbbff;
+    color:#FFF;
+    padding: 0 1.5em;
+    line-height: 2;
+    flex-shrink: 0;
+    border-radius: 5px;
+}

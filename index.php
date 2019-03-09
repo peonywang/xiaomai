@@ -19,12 +19,34 @@
 			$banData = ["images/proImg.png","images/proImg.png","images/proImg.png"];
 		?>
 		<!-- 轮播 -->
+        <?php  $lunbosate = [
+                [
+                    'src' => "news/images/banner.png",
+                    'link' => "news",
+                    'dis' => "news"
+                ],
+                [
+                    'src' => "activity/tuangou/images/banner.png",
+                    'link' => "activity/tuangou",
+                    'dis' => "拼团活动"
+                ],
+                [
+                    'src' => "activity/fanpai/images/banner.jpg",
+                    'link' => "activity/fanpai",
+                    'dis' => "翻拍活动"
+                ],
+                [
+                    'src' => "activity/1yuan/images/top.jpg",
+                    'link' => "activity/1yuan",
+                    'dis' => "1元"
+                ],
+        ]; ?>
 		<div class="banner">
 			<div class="swiper-container" id="pro-banner">
 				<div class="swiper-wrapper">
-                    <div class="swiper-slide"><a href="activity/tuangou"><img src="activity/tuangou/images/banner.png" alt="拼团活动"></a></div>
-                    <div class="swiper-slide"><a href="activity/fanpai"><img src="activity/fanpai/images/banner.jpg" alt="翻拍活动"></a></div>
-                    <div class="swiper-slide"><a href="activity/1yuan"><img src="activity/1yuan/images/top.jpg" alt="1元"></a></div>
+                    <?php foreach ($lunbosate as $k => $v){ ?>
+                        <div class="swiper-slide"><a href="<?php echo $v['link']; ?>"><img src="<?php echo $v['src']; ?>" alt="<?php echo $v['dis']; ?>"></a></div>
+                    <?php } ?>
 					<?php foreach ($banData as $k => $v) { ?>
 					    <div class="swiper-slide">
 					    	<img src="<?php echo $v ?>">
