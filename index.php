@@ -21,6 +21,11 @@
 		<!-- 轮播 -->
         <?php  $lunbosate = [
                 [
+                    'src' => "activity/famous/images/banner.jpg",
+                    'link' => "activity/famous",
+                    'dis' => "大牌"
+                ],
+                [
                     'src' => "news/images/banner.png",
                     'link' => "news",
                     'dis' => "news"

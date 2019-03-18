@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body {
+        font-family: Helvetica Neue,"微软雅黑", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+img{width: 100%;}
+.sourFlex{
+    z-index: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin:0 1px;
+}
+.sourFlex .j-ti{
+	font-size: 0.7rem;
+	line-height: 1.8;
+    margin: auto;
+    display: block;
+    width: 80%;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.sourFlex > div{
+	margin: 0 1px;
+	background: #fff;
+    flex: 1;
+    width: 30%;
+}
+.sourFlex > div p{
+	text-align: center;
+	font-size: 0.8rem;
+	margin-top: 3px;
+}
+.sourFlex > div p b{
+	color: #eb4d0c;
+	margin-right: 3px;
+}
+.sourFlex > div p s{
+	color: #919191;
+}
+.sourFlex > a{
+    text-decoration: none;
+    position: relative;
+    margin: 0 10px;
+}
+.sourFlex > a p{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 3px;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+.sourFlex > a p b{
+    color: #eb4d0c;
+    margin-right: 3px;
+}
+.sourFlex > a p s{
+    color: #919191;
+}
+
+
+.youlike{
+    width: 97%;
+    margin: auto;
+    box-shadow: 0px 0px 24px #999;
+    margin-top: -22px;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: .6rem;
+}
+.youlike > h3{
+    text-align: center;
+    border-bottom: 1px dashed #888;
+    font-size: 0.8rem;
+    width: 60%;
+    margin: auto;
+    line-height: 2.8;
+}
+.clearAll:after{
+    zoom: 1;
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: '\20';
+    clear: both;
+    height: 0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.pinpai{
+    padding: 25px;
+     display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.pinpai dd{
+    flex:1.5;
+}
+.pinpai dt{
+    flex:2;
+    text-align: left;
+}
+.pinpai dt b{
+    font-size: 0.9rem;
+}
+.pinpai dt p{
+    width: 100%;
+    padding-top: 6px;
+    font-size: 0.8rem;
+    display:block;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.pinpai dt span{
+    background: url(../img/price.png) no-repeat;
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #fff;
+    background-size: 100%;
+    width: 60%;
+    height: 40px;
+    padding-top: 7px;
+    text-indent: 10px;
+    margin-top: 6px;
+}
+.hrd{
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: .6rem;
+    line-height: 2.6;
+}
+.swiper-pagination-bullet-active{
+    background: #ff2c6f !important;
+}
+.name{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+.name .shopname{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin-left:.6rem;
+    color: #fff; 
+    font-size: .9rem;
+}
+.name .shopname span{
+    background: #ff2a6d;
+    padding: 2px 7px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 9px;
+    font-size: 0.8rem;
+}
+.guanzhu{
+    color: #fff;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.guanzhu .btn{
+    background: #ff2a6d;
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 25px;
+    margin-left: 6px;
+}
+.tuijian > div > div{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0 2px;
+}
+.tuijian > div > div a{
+    margin: 0 2px;
+}
+.tuijian > div{
+    width: 100%;
+}

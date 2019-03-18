@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>全球购</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Demo styles -->
+    <style>
+    
+    </style>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="header" style="position:relative">
+        <img src="img/list/top-背景.png" alt="">
+        <div class="clearAll name">
+            <div class="fl shopname">
+                <img src="img/list/aididas.png" style="width:50px;margin-right:.6rem;height:50px;" alt="">
+                <div>
+                    <p>阿迪达斯官网旗舰店</p>
+                    <span>正品行货</span>
+                </div>
+            </div>
+            <div class="fr guanzhu">
+                <span>54.6万</span><span class="btn">加关注</span>
+            </div>
+        </div>
+    </div>
+    <h3 class="hrd" style="margin-top:0;line-height:3;"><img src="img/list/tuijian.png" style="width:50%;margin:auto;" alt=""></h3>
+    <div class="tuijian">
+        <div>
+            <div>
+                <a href="#"><img src="img/list/adidas.png" alt=""></a><a href="#"><img src="img/list/nike.png" alt=""></a><a href="#"><img src="img/list/彪马.png" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <a href="#"><img src="img/list/匡威.png" alt=""></a><a href="#"><img src="img/list/万斯.png" alt=""></a><a href="#"><img src="img/list/新百伦.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="new">
+        <div class="sourFlex">
+            <div>
+                <a href="#"><img src="img/sour1.png" alt=""></a>
+                <span class="j-ti">三叶草 女子TUBULAR 经典谢 亮白S75155</span>
+                <p><b>￥99</b><s>￥99</s></p>
+            </div>
+            <div>
+                <a href="#"><img src="img/sour2.png" alt=""></a>
+                <span class="j-ti">三叶草 女子TUBULAR 经典谢 亮白S75155</span>
+                <p><b>￥99</b><s>￥99</s></p>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Swiper JS -->
+    <script src="js/jquery-2.2.1-min.js"></script>
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+   
+    $(function(){
+        var swiper = new Swiper('.modul2', {
+            paginationClickable: true,
+            slidesPerView: 3,
+            spaceBetween:6,
+        });
+
+        var swiper = new Swiper('.modul1 ', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            // loop:false,
+            // grabCursor: true,
+            // autoplay: 3000
+        });
+    
+    })
+    </script>
+</body>
+</html>
