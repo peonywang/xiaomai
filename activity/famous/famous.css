@@ -261,6 +261,18 @@ h2{
 .bottom .btn.btn2{
     background: #000;
 }
+.bottom .btn.btn3{
+    background: #000;
+}
+.bottom .btn.btn3 a{
+    color: #fff;
+    display: inline-block;
+    padding: 0 1em;
+    line-height: 1;
+}
+.bottom .btn.btn3 a + a{
+    border-left:1px solid #fff;
+}
 /*more*/
 .more{
     background: #FFF;
@@ -344,4 +356,43 @@ h2{
 /*详情*/
 .det{
     margin-bottom: 3em;
+}
+.det .pri{
+    background: url("images/pribg.png") no-repeat;
+    background-size: 100% auto;
+    height: 30vw;
+    text-align: center;
+    font-size: 10vw;
+    color: #fff;
+    font-weight: bold;
+    line-height: 25vw;
+    position: relative;
+    margin-top: -10vw;
+}
+
+.det h2{
+    text-align: left;
+    font-weight:normal;
+    border-bottom:1px solid #eaeaea;
+    margin-bottom:.5em;
+    font-size: 1em;
+    padding:0 .6rem;
+}
+.priD{
+    background: green;
+    color: #FFF;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:.6rem;
+}
+
+.priD .d3{width: 100%;}
+.priD .d3 a{
+    display: block;
+    width:100%;
+    background: #FFF;
+    color:green;
+    line-height: 2;
+    text-align: center;
 }
