@@ -379,20 +379,80 @@ h2{
     padding:0 .6rem;
 }
 .priD{
-    background: green;
+    background: #1dccf8;
     color: #FFF;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding:.6rem;
+    padding: .6rem 0;
 }
-
-.priD .d3{width: 100%;}
+.priD .d1,
+.priD .d2,
+.priD .d3{
+    box-sizing: border-box;
+    width: 100%;
+}
+.priD .d1,
+.priD .d2{
+    padding:0 1.2rem;
+}
+.priD .d3{
+    padding:0 .6rem;
+}
+.priD .d1{
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px dashed rgba(255,255,255,0.4);
+    margin-bottom: 1rem;
+}
+.priD .d1 .d1_1{
+    font-size: 44px;
+    margin-right: 34px;
+}
+.priD .d1 .d1_2{
+    flex:1;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 1.6;
+}
+.priD .d2{
+    justify-content: space-between;
+}
+.priD .d2_1 span {
+    border:1px solid #FFF;
+    border-radius: 2em;
+    line-height: 2;
+    display: block;
+    padding:0 1em;
+    margin-right: 28px;
+    white-space: nowrap;
+    font-size: 0.8em;
+    text-align: center;
+    min-width: 6.5em;
+}
+.priD .d2_2 {
+    font-size: 1.05em;
+}
+.priD .d2_2 .count{
+    color: #FFF;
+    border-top: none;
+    margin-top: unset;
+    line-height: unset;
+}
+.priD .d2_2 .count b{
+    color: #FFF;
+    font-size: 1.3em;
+    margin-left: unset;
+}
+.priD .d3{
+    margin-top: 1rem;
+}
 .priD .d3 a{
     display: block;
     width:100%;
     background: #FFF;
-    color:green;
-    line-height: 2;
+    color:#1dccf8;
+    line-height: 2.5;
     text-align: center;
+    font-size: 1.2em;
 }
